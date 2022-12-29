@@ -1,0 +1,48 @@
+18/8 lect CS2040
+
+height of the tree is the same
+
+every level same amt of work (just multiply them) vs 
+
+every level is diff amt of work (sum them up)
+
+outer loop multiply inner loop (j independant of i) vs 
+
+
+
+j dependant on i (sum of j) (outer control number of times inner is executed)
+
+i = 1 2 4 8 . . . 2^lgn
+j = 1 2 4 8 . . . 2^lgn
+
+s = 0
+for(i=1; i<= 2n;i=i*2)
+for(
+
+
+
+
+tightness -> req n^2  so n^3 not allowed
+
+O(lg(n!))=O(lg(n)(n-1)(n-2)....)
+lgn^n = nlgn 
+
+if the increment or decrement is multiplying or dividing respectively 
+-> reach condition faster
+-> time take is shorter
+-> O() will be smaller, usually lower than n (eg. lgn)
+
+if u do redirection, DONT USE MORE THAN 1 SCANNER OBJECT IN THE CODE!!!
+
+put the Scanner as a param for the method,
+or just declare within the method itself directly (refer to 18.8.22 Scanner mistakes jpg)
+
+BufferReader is faster than Scanner
+
+is it better to put all input and output files in one folder without sub-folders?
+
+public static vs public void
+
+u must be within the directory WITH the file to move the file!
+
+How to mve multiple files at once to another dir?
